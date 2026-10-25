@@ -1,0 +1,340 @@
+
+@media (max-width: 900px) {
+  .home-nav {
+    gap: 12px;
+    padding-inline: 15px;
+  }
+
+  .home-nav-links {
+    gap: 14px;
+  }
+
+  .home-hero {
+    padding-inline: 5%;
+  }
+
+  .auth-shell {
+    grid-template-columns: 38% 62%;
+  }
+
+  .auth-promo {
+    padding-inline: 22px;
+  }
+
+  .messenger {
+    grid-template-columns: 125px 240px minmax(0, 1fr);
+  }
+
+  .app-sidebar {
+    padding-inline: 8px;
+  }
+
+  .app-logo {
+    font-size: 10px;
+  }
+
+  .side-menu button {
+    gap: 6px;
+    padding-inline: 6px;
+    font-size: 9px;
+  }
+
+  .recent-chat {
+    gap: 7px;
+    padding-inline: 7px;
+  }
+
+  .contact-avatar {
+    width: 33px;
+    height: 33px;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-page {
+    padding: 0;
+  }
+
+  .home-nav {
+    flex-wrap: wrap;
+    min-height: 65px;
+    padding: 12px 15px;
+    border-radius: 0;
+  }
+
+  .home-nav-links {
+    order: 3;
+    justify-content: center;
+    width: 100%;
+    padding: 9px 0 3px;
+    border-top: 1px solid #edf1f2;
+  }
+
+  .home-nav-links a {
+    font-size: 11px;
+  }
+
+  .nav-auth {
+    gap: 5px;
+  }
+
+  .nav-login,
+  .nav-register {
+    min-width: 59px;
+    min-height: 32px;
+    padding-inline: 9px;
+    font-size: 10px;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 35px 22px 25px;
+  }
+
+  .hero-copy h1 {
+    font-size: 40px;
+  }
+
+  .hero-art {
+    min-height: 270px;
+  }
+
+  .phone-mockup {
+    left: 10%;
+  }
+
+  .laptop-mockup {
+    right: 2%;
+    width: 67%;
+  }
+
+  .features-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 15px;
+    padding: 24px 20px;
+  }
+
+  .home-footer {
+    padding: 20px 15px;
+  }
+
+  /* Auth screens */
+  .auth-page {
+    display: block;
+    min-height: 100dvh;
+    padding: 0;
+    background: #f4f8f7;
+  }
+
+  .auth-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .auth-promo {
+    flex: 0 0 auto;
+    min-height: 205px;
+    padding: 23px 22px;
+  }
+
+  .promo-copy {
+    margin-top: 24px;
+  }
+
+  .promo-copy h2 {
+    font-size: 21px;
+  }
+
+  .promo-copy p {
+    max-width: 280px;
+    font-size: 11px;
+  }
+
+  .promo-illustration,
+  .promo-bottom {
+    display: none;
+  }
+
+  .auth-form-panel {
+    flex: 1;
+    align-items: flex-start;
+    padding: 30px 22px;
+  }
+
+  .auth-form-content {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .auth-form-content h1 {
+    font-size: 24px;
+  }
+
+  /* Mobile messenger */
+  .messenger {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .app-sidebar {
+    display: none;
+  }
+
+  .conversation-panel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-right: 0;
+  }
+
+  .conversation-window {
+    display: none;
+  }
+
+  .messenger.messenger-mobile-chat .conversation-panel {
+    display: none;
+  }
+
+  .messenger.messenger-mobile-chat .conversation-window {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .conversation-search {
+    min-height: 57px;
+    padding: 9px 13px;
+  }
+
+  .recent-heading {
+    min-height: 43px;
+    padding-inline: 15px;
+  }
+
+  .recent-chat {
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .contact-avatar {
+    width: 43px;
+    height: 43px;
+    font-size: 11px;
+  }
+
+  .recent-top strong {
+    font-size: 12px;
+  }
+
+  .recent-top time {
+    font-size: 10px;
+  }
+
+  .recent-bottom > span:first-child {
+    font-size: 11px;
+  }
+
+  .conversation-header {
+    min-height: 61px;
+    gap: 7px;
+    padding-inline: 8px;
+  }
+
+  .mobile-back {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 31px;
+    height: 35px;
+    padding: 0;
+    color: #284b5a;
+    background: transparent;
+    border: 0;
+    border-radius: 7px;
+  }
+
+  .header-contact {
+    width: 37px;
+    height: 37px;
+  }
+
+  .contact-heading strong {
+    font-size: 11px;
+  }
+
+  .conversation-actions {
+    gap: 0;
+  }
+
+  .conversation-actions button {
+    width: 30px;
+    height: 33px;
+  }
+
+  .conversation-messages {
+    gap: 15px;
+    padding: 19px 12px;
+  }
+
+  .message-content {
+    max-width: 88%;
+    padding: 10px 11px 6px;
+  }
+
+  .message-content p {
+    font-size: 12px;
+  }
+
+  .message-input-bar {
+    gap: 3px;
+    min-height: 59px;
+    padding: 8px 6px;
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+  }
+
+  .message-input-bar > button {
+    width: 30px;
+    height: 34px;
+  }
+
+  .message-input-bar > input {
+    height: 38px;
+    padding-inline: 8px;
+    font-size: 11px;
+  }
+
+  .message-input-bar > .send-message {
+    width: 38px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand {
+    gap: 5px;
+    font-size: 13px;
+  }
+
+  .home-nav {
+    padding-inline: 9px;
+  }
+
+  .home-nav-links {
+    gap: 11px;
+  }
+
+  .auth-form-panel {
+    padding-inline: 15px;
+  }
+
+  .conversation-actions button {
+    width: 27px;
+  }
+}
